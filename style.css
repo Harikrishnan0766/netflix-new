@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    /* background-size: 1350px  650px; */
+    background: no-repeat;
+    background-color: black;
+    color: white;
+    
+        
+}
+.background{
+    background-image: url(image/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 500px;
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+nav .img img{
+    width: 27%;
+   margin-top: 15px;
+   border: 200px 300px;
+
+}
+
+nav .btn{
+    display: flex;
+    margin: 12px;
+}
+.btn .eng{
+    width: 80px;
+    height: 30px;
+    background-color:black;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    margin-left: 43px;
+}
+.btn .sign{
+    width: 80px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    font-size: 19px;
+   border-radius: 3px; 
+    border: none; 
+}
+.btn .eng:hover{
+    background-color: transparent;
+}
+.btn .sign:hover{
+    background-color: transparent;
+}
+.btn .eng{
+    margin-inline: 22px;
+}
+.main{
+    text-align: center;
+    margin-top: 80px;
+
+}
+.main h1{
+    font-size: 30px;
+}
+.main h3{
+    font-size: 22px;
+}
+.main p{
+    font-size: 12px;
+}
+.input {
+    display: flex;
+     justify-content: center;
+     
+}
+.input text{
+    margin-left: 20px;
+}
+.input input{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;  
+    border: none;
+}
+.input button{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    border: none;
+}
+.first {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+    padding: 66px;
+    
+    
+}
+.first img{
+    width: 44%;
+}
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+.buttons button{
+    width: 500px;
+    height: 50px;
+    background-color: grey;
+    font-size: 25px;
+    margin-left: 430px;
+    text-align: center;
+    display: flex;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 30px;
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 30px;
+    color: rgb(155, 155, 155);
+    white-space: nowrap;
+}
+.footer1{
+    width: 15%;
+    height: 40%;
+
+}
+.footer2{
+    width: 12%;
+    height: 40%;
+    
+}
+
+.footer3{
+    width: 12%;
+    height: 40%;
+    
+}
+
+
